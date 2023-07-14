@@ -1,1 +1,25 @@
-/* место для вашего кода */
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.header {
+    padding: 92px 49px 92px 51px;
+}
+
+.cover {
+  padding: 92px 180px;
+}
+
+.lots {
+    padding: 180px 50px 181px 50px;
+}
+
+.about {
+    padding: 181px 50px 180px 50px;
+}
+
+.footer {
+    padding: 180px 50px 90px 50px;
+}
+
+
