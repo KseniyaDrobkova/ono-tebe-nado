@@ -7,7 +7,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    padding: 92px 49px 92px 51px;
+    padding: 92px 49px 90px 51px;
+    font-size: 18px;
 }
 
 .header__menu {
@@ -20,8 +21,10 @@ body {
     align-items: center;
     justify-content: space-evenly;
     list-style: circle;
+    text-underline-position: under;
     justify-self: left;
-    gap: 30px;
+    gap: 33px;
+    font-size: 18px;
 }
 
 .header__link_active {
@@ -46,6 +49,9 @@ body {
 .address {
     justify-self: right;
     text-underline-position: under;
+    font-style: normal;
+    line-height: 24.3px;
+
 }
 
 .cover {
@@ -72,7 +78,7 @@ body {
 
 
 .cover__title {
-    padding: 165px 50px 147px;
+    padding: 165px 50px 145px;
     display: flex;
     flex-direction: column;
     color:  #FFF;
@@ -83,22 +89,34 @@ body {
     margin: 0;
     
     
+    
 }
 
+.aligned-text {
+    line-height: 115%;
+    letter-spacing: 30px;
+}
 .aligned-text_center {
     text-align: center;
+    line-height: 100%;
+    letter-spacing: 45px;
+    padding-top: 20px;
+    
     
 }
 
 .aligned-text_right {
     text-align: end;
+    line-height: 100%;
+    padding-top: 22px;
 }
 
 .cover__description {
     display: flex;
     align-items: center;
     justify-content: end;
-    padding-bottom: 20px;
+    
+    padding-right: 55px;
     
 }
 
@@ -108,11 +126,8 @@ body {
     font-size: 22px;
     position: relative;
     padding-right: 100px;
-    line-height: 28px
-    
-
-    
-    
+    line-height: 28px;
+    word-spacing: 18px;
 }
 
 
@@ -125,6 +140,8 @@ body {
     border: 1px solid #FFF;
     background-color: transparent;
     position: relative;
+    padding: 12px 32px;
+    
     
     
 }
@@ -134,6 +151,17 @@ body {
     color: #000;
     
     
+    
+}
+
+.lots__heading {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-bottom: 30px;
 }
 
 .card {
@@ -145,17 +173,39 @@ body {
     flex-wrap: 1;
     
     
+    
 }
 
 .lots__card-list {
     display: flex;
     width: 100%;
     color: #FFF;
-    gap: 20px;
+    gap: 25px;
+    flex-wrap: 1;
+    
+
     
     
     
 
+}
+
+.card__title {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+
+}
+
+.card__text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 }
 
 .lots__card-list-item {
