@@ -204,21 +204,18 @@ body {
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: contain;
-  background-size: 430px 450px;
   background-repeat: no-repeat;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-size: contain;
-  background-size: 430px 450px;
   background-repeat: no-repeat;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-size: contain;
-  background-size: 430px 450px;
   background-repeat: no-repeat;
 }
 
