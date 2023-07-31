@@ -47,6 +47,10 @@
   line-height: 24.3px;
 }
 
+.header__address {
+  max-width: 240px;
+}
+
 .cover {
   display: flex;
   background-image: url("../images/cover.jpg");
@@ -171,11 +175,14 @@
   width: 100%;
   color: #fff;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
   list-style: none;
   z-index: 1;
+  width: 430px;
+  min-height: 450px;
   flex-grow: 1;
 }
 
